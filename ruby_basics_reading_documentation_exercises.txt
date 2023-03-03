@@ -1,0 +1,47 @@
+1. Where to Find Documentation
+Where can you find the most complete Ruby documentation?
+
+On ruby-doc.org, like so: https://ruby-doc.org/core-3.0.1/Enumerable.html#method-i-each_with_index
+
+Or apparently here: https://docs.ruby-lang.org/en/3.2/Enumerable.html#method-i-each_with_index
+
+2. Locate the description of the while loop in the ruby documentation.
+https://ruby-doc.org/3.2.1/syntax/control_expressions_rdoc.html#label-while+Loop
+
+3. Using the ruby documentation, determine what value a while loop returns.
+"The result of a while loop is nil unless break is used to supply a value." from https://ruby-doc.org/3.2.1/syntax/control_expressions_rdoc.html#label-while+Loop
+
+4. In the previous exercise, you learned that the while loop returns nil unless break is used. Locate the documentation for break, and determine what value break sets the return value to for the while loop.
+
+"break accepts a value that supplies the result of the expression it is “breaking” out of:" from https://ruby-doc.org/3.2.1/syntax/control_expressions_rdoc.html#label-break+Statement
+
+"break returns nil when no arguments are passed to break, or the value of the argument when an argument is provided." https://launchschool.com/exercises/0c0c4167
+
+5. Using the ruby documentation, determine how you can write large numbers in a way that makes them easier to read.
+
+You can write integers of any size as follows:
+
+1234
+1_234
+These numbers have the same value, 1,234. The underscore may be used to enhance readability for humans. You may place an underscore anywhere in the number.
+
+6. Using the ruby documentation, determine how you would write a Symbol that represents your name. We aren't looking for a String; we want a Symbol, which is one of ruby's datatypes.
+
+This is the format
+  :my_symbol https://docs.ruby-lang.org/en/3.2/syntax/literals_rdoc.html#label-Symbol+Literals
+
+So, I would write :lira
+
+7. Let's move on now to the documentation you will use most often; the core API section on Classes and Modules. All of these are listed under Classes on the Core API page.
+
+Don't worry too much about the term class. For now, think of classes as data types: numbers, character strings, arrays, hashes, etc.
+
+Locate and open the class documentation for the String class.
+
+https://docs.ruby-lang.org/en/3.2/String.html
+
+8. Use the ruby documentation for the String class to determine which method can be used to right justify a String object.
+
+The method is #rjust and you use it like so: "Lira ".rjust
+
+https://docs.ruby-lang.org/en/3.2/String.html#method-i-rjust
